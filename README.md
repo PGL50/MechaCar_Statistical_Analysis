@@ -9,7 +9,7 @@
 <br/>
 
 ##
-- **Vehicle length** and **Ground Clearance** are the two variables that are significant in the multiple linear regression model predicting MPG. Each on has a highly significant p-value (<0.001) associated with it's slope.
+- **Vehicle length** and **Ground Clearance** are the two variables that are significant in the multiple linear regression model predicting MPG (assuming a 0.05 significance level). Each on has a highly significant p-value (<0.001) associated with it's slope.
 
 <br>
 
