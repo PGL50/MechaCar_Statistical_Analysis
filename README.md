@@ -119,4 +119,4 @@
 
 <br/>
 
-### The t test would be run for the mean MPg between the companies for each type of vehicle. If the p value for the mean difference is < 0.05 it would be concluded that MechaCar MPG is higher than the competition's.
+### The t test would be run for the mean MPG between the companies for each type of vehicle. If the p value for the mean difference is < 0.05 it would be concluded that MechaCar MPG is higher than the competition's.
