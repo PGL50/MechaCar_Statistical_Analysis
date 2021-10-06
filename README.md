@@ -78,3 +78,28 @@
 
 ### T test summary overall and by lot 
 #### The overall t-test showed no difference from the required 1500 PSI. This could be an issue since there may be coils in Lot 3 that do not meet the 1500 PSI standard. Lots 1 and 2 showed no difference from 1500. MechaCar would do well do not accept coils from Lot 3.
+
+<br/>
+
+## Study Design: MechaCar vs Competition
+
+### MechaCar wants to quantify the difference between the competition on various matrics. Many of the metrics of interest to customers are continuous variables: cost by car type, mpg (city or highway), and maintenance costs.
+
+<br/>
+
+### 1 . COST by car type
+
+### The metric to test the difference in costs by car type for each company would be a t test. Cost is a continuous variable. It would be nice to test for normality but if the sample sizes are large enough the central limit theorem will make that less important
+
+<br/>
+
+### Ho: Cost by car for MechaCar = cost by car type for competition
+### Ha: Cost by car for MechaCar < cost by car type for competition
+
+<br/>
+
+### A two sample t test would be appropriate to test the cost of cars between companies. The alternative that would be specified would be "less" since we are interested in MechaCar's cost is less than the competition. The independent variable data type is dichotomous (two different companies) and the dependent variable is continuous.
+
+<br/>
+
+### Each data set for each company would be filtered on the metric of interest and for each car type (compact, sedan, SUV, etc.). The t test would be run for the mean cost between the companies for each type of vehicle. If the p value for the mean difference is < 0.05 it would be concluded that MechaCar costs are less than the competition's.
