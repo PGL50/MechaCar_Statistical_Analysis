@@ -97,7 +97,7 @@
 
 ### 1 . COST by car type
 
-### The metric to test the difference in costs by car type for each company would be a t test. Cost is a continuous variable. It would be nice to test for normality but if the sample sizes are large enough the central limit theorem will make that less important.
+### The metric to test the difference in costs by car type for each company would be a two sample t test. Cost is a continuous variable. It would be nice to test for normality but if the sample sizes are large enough the central limit theorem will make that less important.
 
 <br/>
 
