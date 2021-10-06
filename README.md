@@ -37,6 +37,43 @@
 
     ![Lot summary](/Resources/lot_summary.png) 
 
+## T-Tests on Suspension Coils
 
+### For all four of the t-tests performed the null hypothesis is this:
+-   Ho: Mean coil PSI = 1500
+-   Ha: Mean coil PSI <> 1500
+### Two-sided tests will be performed since the test is to determine if the mean PSI is different from 1500 (higher or lower).
+
+<br/>
+
+1. Below are the results comparing the **overall sample** PSI to the designated 1500 PSI. The p value = 0.06028. So at the 0.05 significance level the null hypothesis cannot be rejected. Therefore the mean PSI **overall** (1498.78) is not statistically different from 1500 PSI.
+
+<br/>
+
+![Overall t-test](/Resources/res0.png) 
+
+<br/>
+
+2. Below are the results comparing the **Lot 1** sample PSI to the designated 1500 PSI. The p value = 1.00. So at the 0.05 significance level the null hypothesis cannot be rejected. Therefore the mean PSI for **Lot 1** (1500) is not statistically different from 1500 PSI. 
+
+<br/>
+
+![Overall t-test](/Resources/res1.png) 
+
+<br/>
+
+3. Below are the results comparing the **Lot 2** sample PSI to the designated 1500 PSI. The p value = 0.6072. So at the 0.05 significance level the null hypothesis cannot be rejected. Therefore the mean PSI for **Lot 2** (1500.2) is not statistically different from 1500 PSI. 
+
+<br/>
+
+![Overall t-test](/Resources/res2.png) 
+
+<br/>
+
+4. Below are the results comparing the **Lot 3** sample PSI to the designated 1500 PSI. The p value = 0.04168. So at the 0.05 significance level the null hypothesis is rejected. Therefore the mean PSI for **Lot 3** (1496.14) is statistically different from 1500 PSI. 
+
+<br/>
+
+![Overall t-test](/Resources/res3.png) 
 
 
