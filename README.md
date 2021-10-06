@@ -76,4 +76,5 @@
 
 ![Overall t-test](/Resources/res3.png) 
 
-
+### T test summary overall and by lot 
+#### The overall t-test showed no difference from the required 1500 PSI. This could be an issue since there may be coils in Lot 3 that do not meet the 1500 PSI standard. Lots 1 and 2 showed no difference from 1500. MechaCar would do well do not accept coils from Lot 3.
