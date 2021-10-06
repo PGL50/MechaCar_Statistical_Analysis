@@ -30,12 +30,12 @@
 - Overall for all coils the variance is 62.3. So according to the specs the lots in total meet the specs but it's a different story by individual lots.
 <br/>
 
-    ![Total summary](/Resources/total_summary.png) 
+![Total summary](/Resources/total_summary.png) 
 
 - There is difference in variance by lot. Lots 1 and 2 are well under the spec of 100 for variance. Lot 3 is well over the 100 at 170.3 for the variance. MechaCar may do well to exclude the Lot 3 coils from their manufacturing.
 <br/>
 
-    ![Lot summary](/Resources/lot_summary.png) 
+![Lot summary](/Resources/lot_summary.png) 
 
 ## T-Tests on Suspension Coils
 
