@@ -28,14 +28,22 @@
 - The design specifications for MechaCar suspension coils says the variance of the coils can't exceed 100 PSI. 
 
 - Overall for all coils the variance is 62.3. So according to the specs the lots in total meet the specs but it's a different story by individual lots.
+
 <br/>
 
 ![Total summary](/Resources/total_summary.png) 
 
 - There is difference in variance by lot. Lots 1 and 2 are well under the spec of 100 for variance. Lot 3 is well over the 100 at 170.3 for the variance. MechaCar may do well to exclude the Lot 3 coils from their manufacturing.
+
 <br/>
 
 ![Lot summary](/Resources/lot_summary.png) 
+
+- Below is the box plot by Lot to show how different the variance is by lot even though the mean PSI is very similar. Lot 3 clearly has a lot of variability in the coil PSI.
+
+<br/>
+
+![Box plots](/Resources/PSI_boxplot.png) 
 
 ## T-Tests on Suspension Coils
 
@@ -58,7 +66,7 @@
 
 <br/>
 
-![Overall t-test](/Resources/res1.png) 
+![Lot1 t-test](/Resources/res1.png) 
 
 <br/>
 
@@ -66,7 +74,7 @@
 
 <br/>
 
-![Overall t-test](/Resources/res2.png) 
+![Lot2 t-test](/Resources/res2.png) 
 
 <br/>
 
@@ -74,7 +82,7 @@
 
 <br/>
 
-![Overall t-test](/Resources/res3.png) 
+![Lot3 t-test](/Resources/res3.png) 
 
 ### T test summary overall and by lot 
 #### The overall t-test showed no difference from the required 1500 PSI. This could be an issue since there may be coils in Lot 3 that do not meet the 1500 PSI standard. Lots 1 and 2 showed no difference from 1500. MechaCar would do well do not accept coils from Lot 3.
