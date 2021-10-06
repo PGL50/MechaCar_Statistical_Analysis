@@ -1,4 +1,5 @@
 library(dplyr)
+library(ggplot2)
 
 ## Deliverable 1
 #file1 <- file.choose()
