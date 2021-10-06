@@ -39,7 +39,7 @@
 
 ![Lot summary](/Resources/lot_summary.png) 
 
-- Below is the box plot by Lot to show how different the variance is by lot even though the mean PSI is very similar. Lot 3 clearly has a lot of variability in the coil PSI.
+- Below are the box plots by Lot to show how different the variance is by lot even though the mean PSI is very similar. Lot 3 clearly has a lot of variability in the coil PSI.
 
 <br/>
 
