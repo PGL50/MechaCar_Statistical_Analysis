@@ -89,7 +89,7 @@
 
 ### 1 . COST by car type
 
-### The metric to test the difference in costs by car type for each company would be a t test. Cost is a continuous variable. It would be nice to test for normality but if the sample sizes are large enough the central limit theorem will make that less important
+### The metric to test the difference in costs by car type for each company would be a t test. Cost is a continuous variable. It would be nice to test for normality but if the sample sizes are large enough the central limit theorem will make that less important.
 
 <br/>
 
@@ -102,4 +102,21 @@
 
 <br/>
 
-### Each data set for each company would be filtered on the metric of interest and for each car type (compact, sedan, SUV, etc.). The t test would be run for the mean cost between the companies for each type of vehicle. If the p value for the mean difference is < 0.05 it would be concluded that MechaCar costs are less than the competition's.
+### Each data set for each company would be filtered on cost and for each car type (compact, sedan, SUV, etc.). The t test would be run for the mean cost between the companies for each type of vehicle. If the p value for the mean difference is < 0.05 it would be concluded that MechaCar costs are less than the competition's.
+
+<br/>
+
+### 2 . MPG by car type
+
+<br/>
+
+### The analyses to look at MPG by company and car type would be identical to that of cost except that the alternative hypothesis for the one sided 2 sample t test would be in the greater than direction.
+
+<br/>
+
+### Ho: MPG by car for MechaCar = MPG by car type for competition
+### Ha: MPG by car for MechaCar > MPG by car type for competition
+
+<br/>
+
+### The t test would be run for the mean MPg between the companies for each type of vehicle. If the p value for the mean difference is < 0.05 it would be concluded that MechaCar MPG is higher than the competition's.
