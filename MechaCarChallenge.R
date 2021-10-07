@@ -32,6 +32,14 @@ total_summary <- coil_table %>% summarize(Mean =mean(PSI),Median=median(PSI),Var
 
 lot_summary <- coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean =mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
 
+
+
+plt <- ggplot(coil_table,aes(x=Manufacturing_Lot,y=PSI)) #import dataset into ggplot2
+plt + geom_boxplot() + theme(axis.text.x=element_text(hjust=1)) #add boxplot and rotate x-axis labels 45 degrees
+
+
+
+
 # Deliverable 3
 # One-sample t-test
 # Ho = (mean PSI = 1500)
