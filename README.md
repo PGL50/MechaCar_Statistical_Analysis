@@ -2,6 +2,8 @@
 
 ## Linear Regression to Predict MPG
 
+### Below are the results of the multivariate regression model to predict MPG.
+
 <br/>
 
 ![Linear model](/Resources/lm_output.png) 
