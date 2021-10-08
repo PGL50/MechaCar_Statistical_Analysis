@@ -111,7 +111,7 @@
 
 ## Study Design: MechaCar vs Competition
 
-### MechaCar wants to quantify the difference between the competition on various matrics. Many of the metrics of interest to customers are continuous variables: cost by car type, mpg (city or highway), and maintenance costs.
+### MechaCar wants to quantify the difference between the competition on various metrics. Many of the metrics of interest to customers are continuous variables: cost by car type, mpg (city or highway), and maintenance costs.
 
 <br/>
 
