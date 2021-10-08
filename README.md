@@ -58,6 +58,13 @@
 
 ![Box plots](/Resources/PSI_boxplot.png) 
 
+
+<br/>
+
+-   If you look at the variance of coil PSI for all of the lots, it is under 100 PSI (62.3). So it would seem that the coils are within the desired specs. But when the data are subsetted by lot there are drastic differences. Lots 1 and 2 are well below the 100 PSI specification (0.98 and 7.5). But Lot 3 has very large variability which is over the 100 PSI spec (170.3). These analyses shows the importance of subsetting the data when it makes sense. Averaging the variability over all lots masked the problem with Lot 3.
+
+<br/>
+
 ## T-Tests on Suspension Coils
 
 ### For all four of the t-tests performed the null hypothesis is this:
