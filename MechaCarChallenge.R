@@ -11,19 +11,22 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AW
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mecha_table)) #generate summary statistics
 
 # Check for normality
-ggplot(mecha_table,aes(x=vehicle_length)) + geom_density() #visualize distribution using density plot
+ggplot(mecha_table,aes(x=vehicle_length)) + geom_density() + #visualize distribution using density plot
+  ggtitle('Vehicle Length') 
 shapiro.test(mecha_table$vehicle_length)
 
-ggplot(mecha_table,aes(x=ground_clearance)) + geom_density() 
+ggplot(mecha_table,aes(x=ground_clearance)) + geom_density() +
+  ggtitle('Ground Clearance') 
 shapiro.test(mecha_table$ground_clearance)
 
 # Plot relationships with significant vars and mpg
 ggplot(mecha_table, aes(x=vehicle_length, y=mpg)) +
+  ggtitle('MPG by Vehicle Length') +
   geom_point(size=2)
 
 ggplot(mecha_table, aes(x=ground_clearance, y=mpg)) +
+  ggtitle('MPG by Ground Clearance') +
   geom_point(size=2)
-
 
 # Deliverable 2
 coil_table <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
@@ -33,11 +36,8 @@ total_summary <- coil_table %>% summarize(Mean =mean(PSI),Median=median(PSI),Var
 lot_summary <- coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean =mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
 
 
-
 plt <- ggplot(coil_table,aes(x=Manufacturing_Lot,y=PSI)) #import dataset into ggplot2
 plt + geom_boxplot() + theme(axis.text.x=element_text(hjust=1)) #add boxplot and rotate x-axis labels 45 degrees
-
-
 
 
 # Deliverable 3

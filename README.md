@@ -13,7 +13,18 @@
 
 <br>
 
-- There is not one slope in a multiple linear regression model. Each variable has it's own slope which is its relationship with the dependent variable mpg. Since **Vehicle length** and **Ground Clearance** are both significant in the model they each have a slope that is different from zero (6.27 and 3.55, respectively). The other variables in the model (vehicle weight, spoiler angle and AWD) have slopes that are not significantly different from zero. The F-statistic for the model is also highly significant (<0.001) which tests that some of the variables have significant slopes.
+- There is not one slope in a multiple linear regression model. Each variable has it's own slope which is its relationship with the dependent variable mpg. Since **Vehicle length** and **Ground Clearance** are both significant in the model they each have a slope that is different from zero (6.27 and 3.55, respectively). The other variables in the model (vehicle weight, spoiler angle and AWD) have slopes that are not significantly different from zero. The F-statistic for the model is also highly significant (<0.001) which tests that some of the variables have significant slopes. The two scatter plots below show the relationships Vehicle Length and Ground Clearnace have with MPG in MechaCars. Both graphs show the positive slope trend.
+
+<br/>
+
+![Length plot](/Resources/plotMPGlength.png) 
+
+<br/>
+
+![Clearance plot](/Resources/plotMPGground.png) 
+
+<br/>
+
 
 <br>
 

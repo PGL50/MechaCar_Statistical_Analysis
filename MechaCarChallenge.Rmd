@@ -28,17 +28,21 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 
 ```{r}
 # Check for normality
-ggplot(mecha_table,aes(x=vehicle_length)) + geom_density() #visualize distribution using density plot
+ggplot(mecha_table,aes(x=vehicle_length)) + geom_density() + #visualize distribution using density plot
+  ggtitle('Vehicle Length') 
 shapiro.test(mecha_table$vehicle_length)
 
-ggplot(mecha_table,aes(x=ground_clearance)) + geom_density() 
+ggplot(mecha_table,aes(x=ground_clearance)) + geom_density() +
+  ggtitle('Ground Clearance') 
 shapiro.test(mecha_table$ground_clearance)
 
 # Plot relationships with significant vars and mpg
 ggplot(mecha_table, aes(x=vehicle_length, y=mpg)) +
+  ggtitle('MPG by Vehicle Length') +
   geom_point(size=2)
 
 ggplot(mecha_table, aes(x=ground_clearance, y=mpg)) +
+    ggtitle('MPG by Ground Clearance') +
   geom_point(size=2)
 ```
 # Deliverable 2
