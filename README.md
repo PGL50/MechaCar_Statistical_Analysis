@@ -134,7 +134,7 @@
 
 <br/>
 
-### 2 . MPG by car type
+### 2 . MPG by car type for MechaCar vs competition
 
 <br/>
 
