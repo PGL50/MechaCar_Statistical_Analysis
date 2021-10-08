@@ -115,14 +115,14 @@
 
 <br/>
 
-### 1 . COST by car type
+### 1 . COST by car type: MechaCar vs Competition
 
-### The metric to test the difference in costs by car type for each company would be a two sample t test. Cost is a continuous variable. It would be nice to test for normality but if the sample sizes are large enough the central limit theorem will make that less important.
+### The metric to test the difference in costs by each car type for each company would be a two sample t test. Cost is a continuous variable. It would be nice to test for normality but if the sample sizes are large enough the central limit theorem will make that less important.
 
 <br/>
 
-### Ho: Cost by car for MechaCar = cost by car type for competition
-### Ha: Cost by car for MechaCar < cost by car type for competition
+### Ho: Cost by car type for MechaCar = cost by car type for competition
+### Ha: Cost by car type for MechaCar < cost by car type for competition
 
 <br/>
 
@@ -138,7 +138,7 @@
 
 <br/>
 
-### The analyses to look at MPG by company and car type would be identical to that of cost except that the alternative hypothesis for the one sided 2 sample t test would be in the greater than direction.
+### The analyses to look at MPG by company and car type would be identical to that of cost except that the alternative hypothesis for the one sided 2 sample t test would be in the "greater" than direction.
 
 <br/>
 
