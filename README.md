@@ -130,7 +130,7 @@
 
 <br/>
 
-### Each data set for each company would be filtered on cost and for each car type (compact, sedan, SUV, etc.). The t test would be run for the mean cost between the companies for each type of vehicle. If the p value for the mean difference is < 0.05 it would be concluded that MechaCar costs are less than the competition's.
+### Each data set for each company would be filtered on cost and subset for each car type (compact, sedan, SUV, etc.). The t test would be run for the mean cost between the companies for each type of vehicle. If the p value for the mean difference is < 0.05 it would be concluded that MechaCar costs are less than the competition's. The analysis would also include boxplots by company and car type to vusualize teh differences.
 
 <br/>
 
